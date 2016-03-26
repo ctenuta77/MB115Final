@@ -19,16 +19,22 @@
     <link rel="apple-touch-icon" href="https://rhildred.github.io/impress.js/apple-touch-icon.png" />
 <style>
 
-body {
-    background-color: #93B874;
-}
 p.small {
     line-height: 150%;
 }
 
-p.big {
-    line-height: 1.8;
-}
+            body{
+                width:1024px;
+                font-size:20px;
+                background: rgb(215, 215, 215);
+                background: -webkit-radial-gradient(#FFFFFF, #68BEFB);
+                background:    -moz-radial-gradient(#FFFFFF, #68BEFB)
+		repeat scroll 0 0 transparent;
+                background:     -ms-radial-gradient(#FFFFFF, #68BEFB);
+                background:      -o-radial-gradient(#FFFFFF, #68BEFB);
+                background:         radial-gradient(#FFFFFF, #68BEFB);
+            }
+
 
 </style>
 </head>
@@ -41,7 +47,7 @@ p.big {
 
 <div id="impress">
     
-     <div id="bored" class="step slide" data-x="0" data-y="-1500">
+     <div id="bored" class="step slide" data-x="0" data-rotate="-150">
         <q><h1><strong>The Evolution of the Golf Ball</strong></h1></q>
         <img class="irc mi" style="margin-top:95px;" src="http://golfweek.media.clients.ellingtoncms.com/img/croppedphotos/2013/01/23/TitleistProV1Newx_t780.jpg?c7a9b4cf7bf62972675d23b981071373caad164f" width="504"
         height="303" align="middle">
@@ -51,7 +57,7 @@ p.big {
     </div>
     
     
-    <div class="step slide" data-x="1000" data-y="-1500">
+    <div class="step slide" data-x="1000" data-rotate="300">
         <q><h1><strong>Wooden Golf Balls</strong></h1> 
         </font>
         <img class="irc mi" style="margin-top: 35px;" src="http://thegolfauction.com/ItemImages/000010/10320a_lg.jpeg"
@@ -256,3 +262,4 @@ p.big {
 </body>
 
 </html>
+
